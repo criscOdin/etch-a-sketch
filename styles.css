@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .row {
   display: flex;
 }
@@ -5,4 +11,8 @@
   width: 10px;
   height: 10px;
   border: 1px solid red;
+}
+
+.blue {
+  background-color: blue;
 }
